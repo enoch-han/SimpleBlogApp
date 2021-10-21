@@ -1,0 +1,219 @@
+.leftslice {
+  float: left;
+  height: 100%;
+  width: 250px;
+  position: relative;
+  z-index: 1;
+  top: 30px;
+  left: 10;
+  background-color: #dcdcdc;
+  overflow-x: hidden;
+  padding-top: 5px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.leftslice::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rightslice {
+  float: right;
+  height: 100%;
+  width: 250px;
+  position: relative;
+  z-index: 1;
+  top: 30px;
+  right: 10;
+  background-color: #dcdcdc;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px#888888;
+}
+
+.rightslice::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.middleslice {
+  height: 100%;
+  width: 700px;
+  position: absolute;
+  justify-content: center;
+  top: 30px;
+  left: 315px;
+  background-color: #dcdcdc;
+  overflow-x: hidden;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px #888888;
+}
+
+.userprofile {
+  background-color: #b3b3b3;
+  margin: 5%;
+  width: 90%;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 0px 5px #e6e6e6;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.userprofile::-webkit-scrollbar {
+  display: none;
+}
+
+.userrow {
+  width: 100%;
+  height: 50px;
+  background-color: #a6a6a6;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  position: sticky;
+}
+
+img.userprofileimage {
+  margin: 10px;
+  border-radius: 50%;
+  height: 60%;
+  width: 20%;
+  position: absolute;
+  border: 2px solid #3333ff;
+  box-shadow: 0px 0px 5px #e6e6e6;
+}
+
+.userinfo {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.requestrow {
+  overflow: scroll;
+}
+
+mat-list.customlist {
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+  height: 70%;
+}
+
+mat-list-item.customitem {
+  position: relative;
+}
+
+mat-card.customcard {
+  height: 15px;
+  width: 100%;
+  background-color: #9494b8;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+button.userprofilebutton {
+  float: right;
+  border-radius: 30px;
+  color: #3333ff;
+}
+
+.available {
+  background-color: #b3b3b3;
+  margin: 5%;
+  min-height: 300px;
+  width: 90%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 0px 5px #e6e6e6;
+  overflow-y: scroll;
+}
+
+.available::-webkit-scrollbar {
+  display: none;
+}
+
+.availabletitle {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #a6a6a6;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.groupprofile {
+  position: relative;
+  height: 70px;
+  background-color: #737373;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px#888888;
+}
+
+img.groupimage {
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  height: 90%;
+  width: 10%;
+  position: relative;
+  border: 2px solid #3333ff;
+  box-shadow: 0px 0px 5px #e6e6e6;
+}
+
+.groupinfo {
+  float: right;
+  margin: 10px;
+  justify-content: center;
+}
+
+.contentcard {
+  border: 2px solid #3333ff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.contentcardbody {
+  margin: 10px;
+}
+
+.contentcardcontent {
+  background-color: #202020;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #606060;
+}
+
+.middleslice::-webkit-scrollbar {
+  display: none;
+}
